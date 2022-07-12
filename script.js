@@ -26,7 +26,7 @@ document.querySelector(".btn-check").addEventListener("click", function () {
       guessEl.disabled = true;
       bodyEl.style.backgroundColor = "#60b347";
       numberEl.style.width = "30rem";
-      if (score > highscore || !highscore) highScoreEl.textContent = score;
+      if (score > highscore) highScoreEl.textContent = score;
     }
   if (!score) {
     messageEl.textContent = "💥 You lost the game!";
