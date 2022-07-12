@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #222;
+  color: #fff;
+}
+
+header {
+  position: relative;
+  border-bottom: 7px solid #fff;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  color: #222;
+  padding: 1.6rem 2.4rem;
+  font-family: inherit;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.btn-again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.rules {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  align-self: center;
+}
+
+.number {
+  position: absolute;
+  background-color: #fff;
+  color: #333;
+  font-size: 6rem;
+  padding: 3rem 0;
+  width: 15rem;
+  text-align: center;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  width: 52rem;
+}
+
+.guess {
+  background: none;
+  display: block;
+  font-family: inherit;
+  text-align: center;
+  width: 25rem;
+  border: 4px solid #fff;
+  padding: 2.4rem;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+.message {
+  margin-bottom: 8rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
